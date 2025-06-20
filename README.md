@@ -34,6 +34,8 @@ To get started with this project, follow these steps:
     ('Ethan Brown', 'ethan.brown@example.com');
 
 - Create user and grant privileges
+
+
   CREATE USER 'webstudent'@'%' IDENTIFIED BY 'webstudent';
   GRANT ALL PRIVILEGES ON web_student.* TO 'webstudent'@'%';
   FLUSH PRIVILEGES;
